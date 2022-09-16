@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Trevland</title>
+</head>
+<body>
+    <div class="hero">
+        <header class="hero_header">
+            <div class="container">
+                <div class="hero_header-wrap">
+                    <div class="hero_header-btn-menu hero_header-btn-menu--open">
+                        <div class="hero_header-btn-line"></div>
+                        <div class="hero_header-btn-line"></div>
+                        <div class="hero_header-btn-line"></div>
+                    </div>
+                    <div class="hero_logo">
+                        <img src="./images/logo.png" alt="Trevland" class="hero_logo-img">                       
+                    </div>
+                    <nav class="hero_nav">
+                        <ul class="hero_nav-list">
+                            <li class="hero_nav-item">
+                                <a href="#" class="hero_nav-link">About</a>
+                            </li>
+                            <li class="hero_nav-item">                
+                                <a href="#" class="hero_nav-link">Location</a>
+                            </li>
+                            <li class="hero_nav-item">  
+                                <a href="#" class="hero_nav-link">Blog</a>                             
+                            </li>
+                            <li class="hero_nav-item"> 
+                                <a href="#" class="hero_nav-link">Tours</a>                                 
+                            </li>
+                            <li class="hero_nav-item">                                                         
+                                <a href="#" class="hero_nav-link">Contact</a>  
+                            </li>     
+                        </ul>
+                    </nav>
+                    <div class="hero_btn">
+                        <a href="#" class="btn">BOOKING NOW</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="hero_body">
+            <div class="container">
+                <div class="hero_body-wrap">
+                    <div class="hero_box">
+                        <p class="hero_tittle_book">BOOK YOUR TRIP</p>
+                        <h1 class="hero_title">Choose Your Favorite<br>Tour To Explore</h1>
+                    </div>
+                </div>
+                <div class="hero-wrap">
+                    <div class="hero_col_img"> 
+                        <div class="hero_card">
+                            <a href="#" class="hero_img-box">
+                                <img src="./images/hero-card/апаap.png" alt="" class="hero_img">
+                            </a>
+                            <div class="hero_body">
+                                <div class="hero_name">
+                                    <a href="#" class="hero_name-link">Rome</a>
+                                </div>
+                                <p class="hero-info">Italy</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero_col_img"> 
+                        <div class="hero_card">
+                            <a href="#" class="hero_img-box">
+                                <img src="./images/hero-card/2.png" alt="" class="hero_img">
+                                <div id="myModal" class="modal">
+                                    <span class="close" onclick="document.getElementById('myModal').style.display='none'"">&times;</span>
+                                    <img class="modal-content" id="img01">
+                                    <div id="caption"></div>
+                                </div>
+                            </a>
+                            <div class="hero_body">
+                                <div class="hero_name">
+                                    <a href="#" class="hero_name-link">New York City</a>
+                                </div>
+                                <p class="hero-info">USA</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero_col_img"> 
+                        <div class="hero_card">
+                            <a href="#" class="hero_img-box">
+                                <img src="./images/hero-card/3.png" alt="" class="hero_img">
+                            </a>
+                            <div class="hero_body">
+                                <div class="hero_name">
+                                    <a href="#" class="hero_name-link">Paris</a>
+                                </div>
+                                <p class="hero-info">France</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero_col_img"> 
+                        <div class="hero_card">
+                            <a href="#" class="hero_img-box">
+                                <img src="./images/hero-card/4.png" alt="" class="hero_img">
+                            </a>
+                            <div class="hero_body">
+                                <div class="hero_name">
+                                    <a href="#" class="hero_name-link">Barcelona</a>
+                                </div>
+                                <p class="hero-info">Spain</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero_col_img"> 
+                        <div class="hero_card">
+                            <a href="#" class="hero_img-box">
+                                <img src="./images/hero-card/5.png" alt="" class="hero_img">
+                            </a>
+                            <div class="hero_body">
+                                <div class="hero_name">
+                                    <a href="#" class="hero_name-link">San Francisco</a>
+                                </div>
+                                <p class="hero-info">USA</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>       
+    <section class="popular-location">
+        <div class="container">
+            <div class="head-info">
+                <h2 class="head-info_title">Discover Popular<br>Destinations</h2>
+            </div>
+            <!-----------------popular-location--------------------->
+            <div class="popular-location_wrap">
+                <div class="popular-location_col">  
+                    <div class="popular-location_card">
+                        <a href="#" class="popular-location_img-box">
+                            <img src="./images/popular-location/img/Paris.png" alt="" class="popular-location_img">
+                        </a>
+                        <div class="popular-location_body">
+                            <div class="popular-location_name">
+                                <a href="#" class="popular-location_name-link">Paris</a>
+                            </div>
+                            <p class="popular-location_info">France</p>
+                        </div>
+                    </div>    
+                </div>
+                <div class="popular-location_col">  
+                    <div class="popular-location_card">
+                        <a href="#" class="popular-location_img-box">
+                            <img src="./images/popular-location/img/Rome.png" alt="" class="popular-location_img">
+                        </a>
+                        <div class="popular-location_body">
+                            <div class="popular-location_name">
+                                <a href="#" class="popular-location_name-link">Rome</a>
+                            </div>
+                            <p class="popular-location_info">Italy</p>
+                        </div>
+                    </div>    
+                </div>
+                <div class="popular-location_col">  
+                    <div class="popular-location_card">
+                        <a href="#" class="popular-location_img-box">
+                            <img src="./images/popular-location/img/NewYork.png" alt="" class="popular-location_img">
+                        </a>
+                        <div class="popular-location_body">
+                            <div class="popular-location_name">
+                                <a href="#" class="popular-location_name-link">New York</a>
+                            </div>
+                            <p class="popular-location_info">USA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="special-offers">
+        <div class="container">
+            <div class="head-info">
+                <p class="head-info_descr_tour">Best Adventures</p>
+                <h2 class="head-info_title_tour">Our Popular<br>Tours & Expeditions</h2>
+            </div>
+        </div>
+        <div class="special-offers_wrap">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="special-offers_card">
+                            <a href="#" class="special-offers_img-box">
+                                <img src="./images/special-offers/img/image-1.jpg" alt="" class="special-offers_img">
+                            </a>
+                            <div class="special-offers_body">
+                                <div class="special-offers_name">
+                                    <a href="#" class="special-offers_name-link" data-text="Statue of Liberty">Statue of Liberty</a>
+                                </div>
+                                <div class="special-offers_row">
+                                    <div class="special-offers_col">
+                                        <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M5.42885 6.51469C6.02854 6.51469 6.51469 6.02854 6.51469 5.42885C6.51469 4.82916 6.02854 4.34302 5.42885 4.34302C4.82916 4.34302 4.34302 4.82916 4.34302 5.42885C4.34302 6.02854 4.82916 6.51469 5.42885 6.51469Z" fill="#FC1200"/>
+                                            <path d="M5.42918 0C2.43567 0 0 2.32946 0 5.19165C0 6.55472 0.621302 8.36738 1.8466 10.5794C2.83064 12.3555 3.96907 13.9615 4.56119 14.7606C4.66124 14.8971 4.79207 15.0082 4.94305 15.0847C5.09403 15.1612 5.26092 15.2011 5.4302 15.2011C5.59947 15.2011 5.76637 15.1612 5.91735 15.0847C6.06833 15.0082 6.19915 14.8971 6.29921 14.7606C6.89031 13.9615 8.02976 12.3555 9.0138 10.5794C10.2371 8.36806 10.8584 6.5554 10.8584 5.19165C10.8584 2.32946 8.42269 0 5.42918 0ZM5.42918 7.60085C4.99966 7.60085 4.57979 7.47348 4.22266 7.23486C3.86553 6.99623 3.58719 6.65706 3.42282 6.26024C3.25845 5.86342 3.21544 5.42677 3.29924 5.00551C3.38303 4.58424 3.58986 4.19729 3.89358 3.89358C4.19729 3.58986 4.58425 3.38303 5.00551 3.29924C5.42677 3.21544 5.86342 3.25845 6.26024 3.42282C6.65706 3.58718 6.99623 3.86553 7.23486 4.22266C7.47349 4.57979 7.60085 4.99966 7.60085 5.42918C7.60022 6.00495 7.37122 6.55696 6.96409 6.96409C6.55696 7.37122 6.00495 7.60022 5.42918 7.60085Z" fill="#FC1200"/>
+                                        </svg>
+                                        <span class="special-offers_country">New York</span>
+                                    </div>
+                                    <div class="special-offers_col">
+                                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.3829 0.463526C10.5325 0.00287056 11.1843 0.00287008 11.3339 0.463525L13.4403 6.9463C13.5072 7.15232 13.6992 7.2918 13.9158 7.2918H20.7322C21.2166 7.2918 21.418 7.9116 21.0261 8.1963L15.5115 12.2029C15.3363 12.3302 15.263 12.5559 15.3299 12.7619L17.4363 19.2447C17.586 19.7053 17.0587 20.0884 16.6669 19.8037L11.1523 15.7971C10.977 15.6698 10.7397 15.6698 10.5645 15.7971L5.04993 19.8037C4.65807 20.0884 4.13083 19.7053 4.2805 19.2447L6.38689 12.7619C6.45382 12.5559 6.38049 12.3302 6.20525 12.2029L0.69067 8.1963C0.298813 7.9116 0.500201 7.2918 0.984562 7.2918H7.80096C8.01757 7.2918 8.20955 7.15232 8.27649 6.9463L10.3829 0.463526Z" fill="#FFC700"/>
+                                        </svg>
+                                        <span class="special-offers_rating">4.8</span>
+                                    </div>
+                                </div>
+                                <p class="special-offers_days">4 Day 5 Nights</p>
+                                <div class="special-offers_price">
+                                    <span class="special-offers_price-value">450$/</span>person
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="special-offers_card">
+                            <a href="#" class="special-offers_img-box">
+                                <img src="./images/special-offers/img/image-2.jpg" alt="" class="special-offers_img">
+                            </a>
+                            <div class="special-offers_body">
+                                <div class="special-offers_name">
+                                    <a href="#" class="special-offers_name-link" data-text="The Great Wall">The Great Wall</a>
+                                </div>
+                                <div class="special-offers_row">
+                                    <div class="special-offers_col">
+                                        <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M5.42885 6.51469C6.02854 6.51469 6.51469 6.02854 6.51469 5.42885C6.51469 4.82916 6.02854 4.34302 5.42885 4.34302C4.82916 4.34302 4.34302 4.82916 4.34302 5.42885C4.34302 6.02854 4.82916 6.51469 5.42885 6.51469Z" fill="#FC1200"/>
+                                            <path d="M5.42918 0C2.43567 0 0 2.32946 0 5.19165C0 6.55472 0.621302 8.36738 1.8466 10.5794C2.83064 12.3555 3.96907 13.9615 4.56119 14.7606C4.66124 14.8971 4.79207 15.0082 4.94305 15.0847C5.09403 15.1612 5.26092 15.2011 5.4302 15.2011C5.59947 15.2011 5.76637 15.1612 5.91735 15.0847C6.06833 15.0082 6.19915 14.8971 6.29921 14.7606C6.89031 13.9615 8.02976 12.3555 9.0138 10.5794C10.2371 8.36806 10.8584 6.5554 10.8584 5.19165C10.8584 2.32946 8.42269 0 5.42918 0ZM5.42918 7.60085C4.99966 7.60085 4.57979 7.47348 4.22266 7.23486C3.86553 6.99623 3.58719 6.65706 3.42282 6.26024C3.25845 5.86342 3.21544 5.42677 3.29924 5.00551C3.38303 4.58424 3.58986 4.19729 3.89358 3.89358C4.19729 3.58986 4.58425 3.38303 5.00551 3.29924C5.42677 3.21544 5.86342 3.25845 6.26024 3.42282C6.65706 3.58718 6.99623 3.86553 7.23486 4.22266C7.47349 4.57979 7.60085 4.99966 7.60085 5.42918C7.60022 6.00495 7.37122 6.55696 6.96409 6.96409C6.55696 7.37122 6.00495 7.60022 5.42918 7.60085Z" fill="#FC1200"/>
+                                        </svg>
+                                        <span class="special-offers_country">China </span>
+                                    </div>
+                                    <div class="special-offers_col">
+                                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.3829 0.463526C10.5325 0.00287056 11.1843 0.00287008 11.3339 0.463525L13.4403 6.9463C13.5072 7.15232 13.6992 7.2918 13.9158 7.2918H20.7322C21.2166 7.2918 21.418 7.9116 21.0261 8.1963L15.5115 12.2029C15.3363 12.3302 15.263 12.5559 15.3299 12.7619L17.4363 19.2447C17.586 19.7053 17.0587 20.0884 16.6669 19.8037L11.1523 15.7971C10.977 15.6698 10.7397 15.6698 10.5645 15.7971L5.04993 19.8037C4.65807 20.0884 4.13083 19.7053 4.2805 19.2447L6.38689 12.7619C6.45382 12.5559 6.38049 12.3302 6.20525 12.2029L0.69067 8.1963C0.298813 7.9116 0.500201 7.2918 0.984562 7.2918H7.80096C8.01757 7.2918 8.20955 7.15232 8.27649 6.9463L10.3829 0.463526Z" fill="#FFC700"/>
+                                        </svg>
+                                        <span class="special-offers_rating">4.9</span>
+                                    </div>
+                                </div>
+                                <p class="special-offers_days">7 Day 8 Nights</p>
+                                <div class="special-offers_price">
+                                    <span class="special-offers_price-value">$850/</span>person
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="special-offers_card">
+                            <a href="#" class="special-offers_img-box">
+                                <img src="./images/special-offers/img/image-3.jpg" alt="" class="special-offers_img">
+                            </a>
+                            <div class="special-offers_body">
+                                <div class="special-offers_name">
+                                    <a href="#" class="special-offers_name-link" data-text="Dizin">Dizin</a>
+                                </div>
+                                <div class="special-offers_row">
+                                    <div class="special-offers_col">
+                                        <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M5.42885 6.51469C6.02854 6.51469 6.51469 6.02854 6.51469 5.42885C6.51469 4.82916 6.02854 4.34302 5.42885 4.34302C4.82916 4.34302 4.34302 4.82916 4.34302 5.42885C4.34302 6.02854 4.82916 6.51469 5.42885 6.51469Z" fill="#FC1200"/>
+                                            <path d="M5.42918 0C2.43567 0 0 2.32946 0 5.19165C0 6.55472 0.621302 8.36738 1.8466 10.5794C2.83064 12.3555 3.96907 13.9615 4.56119 14.7606C4.66124 14.8971 4.79207 15.0082 4.94305 15.0847C5.09403 15.1612 5.26092 15.2011 5.4302 15.2011C5.59947 15.2011 5.76637 15.1612 5.91735 15.0847C6.06833 15.0082 6.19915 14.8971 6.29921 14.7606C6.89031 13.9615 8.02976 12.3555 9.0138 10.5794C10.2371 8.36806 10.8584 6.5554 10.8584 5.19165C10.8584 2.32946 8.42269 0 5.42918 0ZM5.42918 7.60085C4.99966 7.60085 4.57979 7.47348 4.22266 7.23486C3.86553 6.99623 3.58719 6.65706 3.42282 6.26024C3.25845 5.86342 3.21544 5.42677 3.29924 5.00551C3.38303 4.58424 3.58986 4.19729 3.89358 3.89358C4.19729 3.58986 4.58425 3.38303 5.00551 3.29924C5.42677 3.21544 5.86342 3.25845 6.26024 3.42282C6.65706 3.58718 6.99623 3.86553 7.23486 4.22266C7.47349 4.57979 7.60085 4.99966 7.60085 5.42918C7.60022 6.00495 7.37122 6.55696 6.96409 6.96409C6.55696 7.37122 6.00495 7.60022 5.42918 7.60085Z" fill="#FC1200"/>
+                                        </svg>
+                                        <span class="special-offers_country">Iran</span>
+                                    </div>
+                                    <div class="special-offers_col">
+                                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.3829 0.463526C10.5325 0.00287056 11.1843 0.00287008 11.3339 0.463525L13.4403 6.9463C13.5072 7.15232 13.6992 7.2918 13.9158 7.2918H20.7322C21.2166 7.2918 21.418 7.9116 21.0261 8.1963L15.5115 12.2029C15.3363 12.3302 15.263 12.5559 15.3299 12.7619L17.4363 19.2447C17.586 19.7053 17.0587 20.0884 16.6669 19.8037L11.1523 15.7971C10.977 15.6698 10.7397 15.6698 10.5645 15.7971L5.04993 19.8037C4.65807 20.0884 4.13083 19.7053 4.2805 19.2447L6.38689 12.7619C6.45382 12.5559 6.38049 12.3302 6.20525 12.2029L0.69067 8.1963C0.298813 7.9116 0.500201 7.2918 0.984562 7.2918H7.80096C8.01757 7.2918 8.20955 7.15232 8.27649 6.9463L10.3829 0.463526Z" fill="#FFC700"/>
+                                        </svg>
+                                        <span class="special-offers_rating">4.6</span>
+                                    </div>
+                                </div>
+                                <p class="special-offers_days">5 Day 6 Nights</p>
+                                <div class="special-offers_price">
+                                    <span class="special-offers_price-value">$550/</span>person
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="special-offers_card">
+                            <a href="#" class="special-offers_img-box">
+                                <img src="./images/special-offers/img/image-4.jpg" alt="" class="special-offers_img"></a>
+                            <div class="special-offers_body">
+                                <div class="special-offers_name">
+                                    <a href="#" class="special-offers_name-link" data-text="Sajek Valley">Sajek Valley</a>
+                                </div>
+                                <div class="special-offers_row">
+                                    <div class="special-offers_col">
+                                        <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M5.42885 6.51469C6.02854 6.51469 6.51469 6.02854 6.51469 5.42885C6.51469 4.82916 6.02854 4.34302 5.42885 4.34302C4.82916 4.34302 4.34302 4.82916 4.34302 5.42885C4.34302 6.02854 4.82916 6.51469 5.42885 6.51469Z" fill="#FC1200"/>
+                                            <path d="M5.42918 0C2.43567 0 0 2.32946 0 5.19165C0 6.55472 0.621302 8.36738 1.8466 10.5794C2.83064 12.3555 3.96907 13.9615 4.56119 14.7606C4.66124 14.8971 4.79207 15.0082 4.94305 15.0847C5.09403 15.1612 5.26092 15.2011 5.4302 15.2011C5.59947 15.2011 5.76637 15.1612 5.91735 15.0847C6.06833 15.0082 6.19915 14.8971 6.29921 14.7606C6.89031 13.9615 8.02976 12.3555 9.0138 10.5794C10.2371 8.36806 10.8584 6.5554 10.8584 5.19165C10.8584 2.32946 8.42269 0 5.42918 0ZM5.42918 7.60085C4.99966 7.60085 4.57979 7.47348 4.22266 7.23486C3.86553 6.99623 3.58719 6.65706 3.42282 6.26024C3.25845 5.86342 3.21544 5.42677 3.29924 5.00551C3.38303 4.58424 3.58986 4.19729 3.89358 3.89358C4.19729 3.58986 4.58425 3.38303 5.00551 3.29924C5.42677 3.21544 5.86342 3.25845 6.26024 3.42282C6.65706 3.58718 6.99623 3.86553 7.23486 4.22266C7.47349 4.57979 7.60085 4.99966 7.60085 5.42918C7.60022 6.00495 7.37122 6.55696 6.96409 6.96409C6.55696 7.37122 6.00495 7.60022 5.42918 7.60085Z" fill="#FC1200"/>
+                                        </svg>
+                                        <span class="special-offers_country">Bangladesh</span>
+                                    </div>
+                                    <div class="special-offers_col">
+                                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.3829 0.463526C10.5325 0.00287056 11.1843 0.00287008 11.3339 0.463525L13.4403 6.9463C13.5072 7.15232 13.6992 7.2918 13.9158 7.2918H20.7322C21.2166 7.2918 21.418 7.9116 21.0261 8.1963L15.5115 12.2029C15.3363 12.3302 15.263 12.5559 15.3299 12.7619L17.4363 19.2447C17.586 19.7053 17.0587 20.0884 16.6669 19.8037L11.1523 15.7971C10.977 15.6698 10.7397 15.6698 10.5645 15.7971L5.04993 19.8037C4.65807 20.0884 4.13083 19.7053 4.2805 19.2447L6.38689 12.7619C6.45382 12.5559 6.38049 12.3302 6.20525 12.2029L0.69067 8.1963C0.298813 7.9116 0.500201 7.2918 0.984562 7.2918H7.80096C8.01757 7.2918 8.20955 7.15232 8.27649 6.9463L10.3829 0.463526Z" fill="#FFC700"/>
+                                        </svg>
+                                        <span class="special-offers_rating">4.7</span>
+                                    </div>
+                                </div>
+                                <p class="special-offers_days">3 Day 4 Nights</p>
+                                <div class="special-offers_price">
+                                    <span class="special-offers_price-value">400$/</span>person
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="special-offers_card">
+                            <a href="#" class="special-offers_img-box">
+                                <img src="./images/special-offers/img/image-5.jpg" alt="" class="special-offers_img"></a>
+                            <div class="special-offers_body">
+                                <div class="special-offers_name">
+                                    <a href="#" class="special-offers_name-link" data-text="Osaka Castle">Osaka Castle</a>
+                                </div>
+                                <div class="special-offers_row">
+                                    <div class="special-offers_col">
+                                        <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M5.42885 6.51469C6.02854 6.51469 6.51469 6.02854 6.51469 5.42885C6.51469 4.82916 6.02854 4.34302 5.42885 4.34302C4.82916 4.34302 4.34302 4.82916 4.34302 5.42885C4.34302 6.02854 4.82916 6.51469 5.42885 6.51469Z" fill="#FC1200"/>
+                                            <path d="M5.42918 0C2.43567 0 0 2.32946 0 5.19165C0 6.55472 0.621302 8.36738 1.8466 10.5794C2.83064 12.3555 3.96907 13.9615 4.56119 14.7606C4.66124 14.8971 4.79207 15.0082 4.94305 15.0847C5.09403 15.1612 5.26092 15.2011 5.4302 15.2011C5.59947 15.2011 5.76637 15.1612 5.91735 15.0847C6.06833 15.0082 6.19915 14.8971 6.29921 14.7606C6.89031 13.9615 8.02976 12.3555 9.0138 10.5794C10.2371 8.36806 10.8584 6.5554 10.8584 5.19165C10.8584 2.32946 8.42269 0 5.42918 0ZM5.42918 7.60085C4.99966 7.60085 4.57979 7.47348 4.22266 7.23486C3.86553 6.99623 3.58719 6.65706 3.42282 6.26024C3.25845 5.86342 3.21544 5.42677 3.29924 5.00551C3.38303 4.58424 3.58986 4.19729 3.89358 3.89358C4.19729 3.58986 4.58425 3.38303 5.00551 3.29924C5.42677 3.21544 5.86342 3.25845 6.26024 3.42282C6.65706 3.58718 6.99623 3.86553 7.23486 4.22266C7.47349 4.57979 7.60085 4.99966 7.60085 5.42918C7.60022 6.00495 7.37122 6.55696 6.96409 6.96409C6.55696 7.37122 6.00495 7.60022 5.42918 7.60085Z" fill="#FC1200"/>
+                                        </svg>
+                                        <span class="special-offers_country">Japan</span>
+                                    </div>
+                                    <div class="special-offers_col">
+                                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.3829 0.463526C10.5325 0.00287056 11.1843 0.00287008 11.3339 0.463525L13.4403 6.9463C13.5072 7.15232 13.6992 7.2918 13.9158 7.2918H20.7322C21.2166 7.2918 21.418 7.9116 21.0261 8.1963L15.5115 12.2029C15.3363 12.3302 15.263 12.5559 15.3299 12.7619L17.4363 19.2447C17.586 19.7053 17.0587 20.0884 16.6669 19.8037L11.1523 15.7971C10.977 15.6698 10.7397 15.6698 10.5645 15.7971L5.04993 19.8037C4.65807 20.0884 4.13083 19.7053 4.2805 19.2447L6.38689 12.7619C6.45382 12.5559 6.38049 12.3302 6.20525 12.2029L0.69067 8.1963C0.298813 7.9116 0.500201 7.2918 0.984562 7.2918H7.80096C8.01757 7.2918 8.20955 7.15232 8.27649 6.9463L10.3829 0.463526Z" fill="#FFC700"/>
+                                        </svg>
+                                        <span class="special-offers_rating">4.7</span>
+                                    </div>
+                                </div>
+                                <p class="special-offers_days">4 Day 5 Nights</p>
+                                <div class="special-offers_price">
+                                    <span class="special-offers_price-value">700$/</span>person
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="special-offers_card">
+                            <a href="#" class="special-offers_img-box">
+                                <img src="./images/special-offers/img/uk.png" alt="" class="special-offers_img"></a>
+                            <div class="special-offers_body">
+                                <div class="special-offers_name">
+                                    <a href="#" class="special-offers_name-link" data-text="San Francisco">San Francisco</a>
+                                </div>
+                                <div class="special-offers_row">
+                                    <div class="special-offers_col">
+                                        <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M5.42885 6.51469C6.02854 6.51469 6.51469 6.02854 6.51469 5.42885C6.51469 4.82916 6.02854 4.34302 5.42885 4.34302C4.82916 4.34302 4.34302 4.82916 4.34302 5.42885C4.34302 6.02854 4.82916 6.51469 5.42885 6.51469Z" fill="#FC1200"/>
+                                            <path d="M5.42918 0C2.43567 0 0 2.32946 0 5.19165C0 6.55472 0.621302 8.36738 1.8466 10.5794C2.83064 12.3555 3.96907 13.9615 4.56119 14.7606C4.66124 14.8971 4.79207 15.0082 4.94305 15.0847C5.09403 15.1612 5.26092 15.2011 5.4302 15.2011C5.59947 15.2011 5.76637 15.1612 5.91735 15.0847C6.06833 15.0082 6.19915 14.8971 6.29921 14.7606C6.89031 13.9615 8.02976 12.3555 9.0138 10.5794C10.2371 8.36806 10.8584 6.5554 10.8584 5.19165C10.8584 2.32946 8.42269 0 5.42918 0ZM5.42918 7.60085C4.99966 7.60085 4.57979 7.47348 4.22266 7.23486C3.86553 6.99623 3.58719 6.65706 3.42282 6.26024C3.25845 5.86342 3.21544 5.42677 3.29924 5.00551C3.38303 4.58424 3.58986 4.19729 3.89358 3.89358C4.19729 3.58986 4.58425 3.38303 5.00551 3.29924C5.42677 3.21544 5.86342 3.25845 6.26024 3.42282C6.65706 3.58718 6.99623 3.86553 7.23486 4.22266C7.47349 4.57979 7.60085 4.99966 7.60085 5.42918C7.60022 6.00495 7.37122 6.55696 6.96409 6.96409C6.55696 7.37122 6.00495 7.60022 5.42918 7.60085Z" fill="#FC1200"/>
+                                        </svg>
+                                        <span class="special-offers_country">USA</span>
+                                    </div>
+                                    <div class="special-offers_col">
+                                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.3829 0.463526C10.5325 0.00287056 11.1843 0.00287008 11.3339 0.463525L13.4403 6.9463C13.5072 7.15232 13.6992 7.2918 13.9158 7.2918H20.7322C21.2166 7.2918 21.418 7.9116 21.0261 8.1963L15.5115 12.2029C15.3363 12.3302 15.263 12.5559 15.3299 12.7619L17.4363 19.2447C17.586 19.7053 17.0587 20.0884 16.6669 19.8037L11.1523 15.7971C10.977 15.6698 10.7397 15.6698 10.5645 15.7971L5.04993 19.8037C4.65807 20.0884 4.13083 19.7053 4.2805 19.2447L6.38689 12.7619C6.45382 12.5559 6.38049 12.3302 6.20525 12.2029L0.69067 8.1963C0.298813 7.9116 0.500201 7.2918 0.984562 7.2918H7.80096C8.01757 7.2918 8.20955 7.15232 8.27649 6.9463L10.3829 0.463526Z" fill="#FFC700"/>
+                                        </svg>
+                                        <span class="special-offers_rating">4.9</span>
+                                    </div>
+                                </div>
+                                <p class="special-offers_days">3 Day 4 Nights</p>
+                                <div class="special-offers_price">
+                                    <span class="special-offers_price-value">480$/</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="special-offers_controls">
+                <div class="special-offers_btn-prev">
+                    <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6 11L1 6L6 1" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M13.0001 11L8.00012 6L13.0001 1" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>  
+                </div>                  
+                <div class="special-offers_pagination"></div>
+                <div class="special-offers_btn-next">
+                    <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8.00012 11L13.0001 6L8.00012 1" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M1 11L6 6L1 1" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>          
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="news">
+        <div class="container">
+            <div class="head-info">
+                <p class="head-info_descr">Features</p>
+                <h2 class="head-info_title">Get Unique<br>Experience</h2>
+            </div>
+            <div class="news-wrap">
+                <div class="news-col">
+                    <div class="news-card-large">
+                        <a href="#" class="news_col-img_large">
+                            <img src="./images/news/canada.jpg" alt="" class="news_col-img_large">
+                        </a>
+                        <a href="#" class="news_name">Banff National Park</a>
+                        <p class="news_info">Banff National Park lies in the heart of the majestic Rocky Mountains in the province of Alberta, and showcases some of Canada's most beautiful scenery. Turquoise-colored lakes, snow-capped peaks, and glaciers are all easily accessible</p>
+                        <a href="#" class="news_name-link">@thomasalva_adison</a>
+                    </div>
+                </div>
+                <div class="news-col">
+                    <div class="news_card-small">
+                        <div class="news_row">
+                            <div class="news_col-img_small">
+                                <img src="./images/news/hiroshima.jpg" alt="" class="news_col-img_small">
+                            </div>
+                            <div class="news_col-text">
+                                <a href="#" class="news_name-link">The Hiroshima Peace!</a>
+                                <p class="news_info">It was formally opened to the public in August that year</p>
+                                <a href="#" class="news_name-link">@shova_bd88</a>
+                            </div>
+                        </div>
+                        <div class="news_row">
+                            <div class="news_col-img_small">
+                                <img src="./images/news/india.jpg" alt="" class="news_col-img_small">
+                            </div>
+                            <div class="news_col-text">
+                                <a href="#" class="news_name-link">The faithful prayers!</a>
+                                <p class="news_info">A major pilgrimage center for Hindus, the holy city.</p>
+                                <a href="#" class="news_name-link">@adem/smith</a>   
+                            </div>        
+                        </div>
+                        <div class="news-row">
+                            <div class="news_col-img_small">
+                                <img src="./images/news/lake.jpg" alt="" class="news_col-img_small">
+                            </div>
+                            <div class="news_col-text">
+                                <a href="#" class="news_name-link">Colourful waters!</a>
+                                <p class="news_info">Forest-driven water and energy cycles are poorly.</p>
+                                <a href="#" class="news_name-link">@jhon7leew</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="footer_wrap">
+                    <div class="footer_col">
+                        <p class="contact_info">TVL</p>
+                    </div>
+                    <div class="footer_col">
+                        <div class="info_col">Services</div>
+                        <div class="info_col">About</div>
+                        <div class="info_col">Our story</div>
+                        <div class="info_col">Benefits</div>
+                        <div class="info_col">Branding</div>  
+                    </div>
+                    <div class="footer_col">  
+                        <div class="info_col">Legal</div>
+                        <div class="info_col">Terms & Conditions</div>
+                        <div class="info_col">Privecy Policy</div>
+                        <div class="info_col">Terms of use</div>
+                    </div>
+                    <div class="subscribe_col"> 
+                        <div class="sub_col">SUBSCRIBE NOW
+                            <div class="send_btn">
+                                <a href="#" class="send_btn">Send</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
